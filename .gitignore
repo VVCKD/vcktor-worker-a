@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+assets/weights/*
+assets/indices/*
+logs/
+*.wav
+.env
