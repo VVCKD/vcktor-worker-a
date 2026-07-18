@@ -32,6 +32,7 @@ load_dotenv()
 # 엔진이 참조하는 경로 env (Dockerfile ENV 로도 세팅하지만 안전하게 기본값 보강)
 os.environ.setdefault("weight_root", os.path.join(BASE_DIR, "assets", "weights"))
 os.environ.setdefault("index_root", os.path.join(BASE_DIR, "assets", "indices"))
+os.environ.setdefault("outside_index_root", os.path.join(BASE_DIR, "assets", "indices"))
 os.environ.setdefault("rmvpe_root", os.path.join(BASE_DIR, "assets", "rmvpe"))
 
 WEIGHT_ROOT = os.environ["weight_root"]

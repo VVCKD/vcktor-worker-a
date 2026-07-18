@@ -27,6 +27,7 @@ COPY . .
 
 ENV weight_root=/workspace/assets/weights \
     index_root=/workspace/assets/indices \
+    outside_index_root=/workspace/assets/indices \
     rmvpe_root=/workspace/assets/rmvpe \
     weight_uvr5_root=/workspace/assets/uvr5_weights \
     log_root=/workspace/logs \
